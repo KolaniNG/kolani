@@ -1,0 +1,114 @@
+
+/*    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quantico', sans-serif; */
+
+body {
+  background-color: #212121;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  color: #ff2647;
+}
+
+.welcome {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Orbitron', sans-serif;
+  color: #dedede;
+  text-align: left;
+}
+
+.container {
+  width: 150px;
+  background-color: Black;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+
+  align-content: flex-end;
+}
+
+li {
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#mainNav li {
+	 font-size: 20px;
+	 display: inline;
+   padding-right: 10px;
+}
+
+#mainNav a {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  color: #ff2647;
+}
+
+#mainNav a:hover {
+  color: hotpink;
+}
+
+.container p {
+  font-family: 'Quantico', sans-serif;
+  color: orange;
+  text-align: center;
+}
+
+.siteContainer{
+	margin: 0 auto;
+  text-align: left;
+	width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.gallery {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.artwork {
+   align-self: auto;
+   width: 300px;
+   background-color: black;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 5px;
+}
+
+.artwork img {
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform .2s;
+}
+
+.artwork img:hover {
+  transform: scale(1.7);
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.heroimg img {
+  width: 100%;
+  border-radius: 7px;
+  transition: transform .2s;
+}
+
+.heroimg img:hover {
+  transform: scale(1.005);
+  filter: brightness(1.1);
+}
