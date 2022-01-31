@@ -112,3 +112,15 @@ a:link {
   transform: scale(1.005);
   filter: brightness(1.1);
 }
+
+.abebe a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  color: pink;
+}
