@@ -20,18 +20,26 @@ p {
   color: white;
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
+  margin-left: 2%;
 }
 
 a:link {
   text-decoration: none;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
 }
 
 a:visited {
-  color: yellow;
+  color: #e3eeff;
+}
+
+.nav a:visited {
+  color: white;
 }
 
 a:hover {
-  color: #00c8ff;
+  color: #ffe0c2;
 }
 
 #mainNav li {
@@ -48,6 +56,10 @@ a:hover {
 
 #mainNav a:hover {
   color: hotpink;
+}
+
+span {
+  color: red;
 }
 
 .siteContainer {
