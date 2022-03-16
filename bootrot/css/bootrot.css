@@ -58,6 +58,14 @@ a:hover {
   color: hotpink;
 }
 
+.silly {
+  display: flex;
+  justify-content: center;
+}
+.silly img {
+  max-width: 50%;
+}
+
 span {
   color: red;
 }
