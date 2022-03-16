@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: #ff5500;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h2 {
+  color: #fff04f;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: #00c8ff;
+}
+
+#mainNav li {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+}
+
+#mainNav a {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  color: #ff2647;
+}
+
+#mainNav a:hover {
+  color: hotpink;
+}
+
+.siteContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background-color: #120b1a;
+}
