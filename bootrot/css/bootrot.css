@@ -42,19 +42,19 @@ a:hover {
   color: #ffe0c2;
 }
 
-#mainNav li {
+li {
   color: white;
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
 }
 
-#mainNav a {
+a {
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
   color: #ff2647;
 }
 
-#mainNav a:hover {
+a:hover {
   color: hotpink;
 }
 
@@ -79,4 +79,5 @@ span {
   padding-top: 2%;
   padding-bottom: 5%;
   background-color: #120b1a;
+  border-radius: 5px;
 }
