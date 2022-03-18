@@ -3,7 +3,7 @@
     font-family: 'Quantico', sans-serif; */
 
 body {
-  background-color: #212121;
+  background-color: #040812;
 }
 
 h1 {
@@ -73,10 +73,10 @@ a:link {
 .siteContainer{
 	margin: 0 auto;
   text-align: left;
-	max-width: 100%;
   min-width: 70%;
-	padding-left: 20%;
-	padding-right: 20%;
+	margin-left: 20%;
+	margin-right: 20%;
+  margin-bottom: 10%
 }
 
 .gallery {
@@ -109,6 +109,38 @@ a:link {
   transform: scale(1.2);
   object-fit: contain;
   border-radius: 5px;
+}
+
+.mspaint img {
+  max-width: 53%;
+  border-radius: 7px;
+}
+
+.commsheet {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.sheetItem {
+   align-self: auto;
+   max-width: 19em;
+   /*max-height: 16em;*/
+   background-color: black;
+   padding: 2%;
+   border-bottom: 2%;
+   margin: 3%;
+   border-radius: 5px;
+   text-align: right;
+}
+
+.sheetItem p {
+  text-align: right;
+}
+
+.sheetItem span {
+  color: #ff70e2;
 }
 
 .heroimg img {
