@@ -76,6 +76,19 @@ a:hover {
   max-height: 30em;
 }
 
+.sillyVid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: 2%
+  margin-right: 2%;
+}
+
+.sillyVid iframe {
+  width: 50em;
+  height: 30em;
+}
+
 .sillyCont {
   max-width: 100%;
 }
