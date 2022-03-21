@@ -70,6 +70,20 @@ a:hover {
   max-width: 50%;
 }
 
+.comic {
+  width: 50em;
+}
+
+.comicDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.comic img {
+  max-width: 90%;
+}
+
 span {
   color: red;
 }
