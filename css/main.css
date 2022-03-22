@@ -121,19 +121,19 @@ a:link {
 }
 
 .mspaint img {
-  max-width: 53%;
+  width: 19em;
   border-radius: 7px;
 }
 
 .commsheet {
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
   justify-content: center;
   max-width: 100%;
 }
 
 .sheetItem {
-   align-self: auto;
+  align-self: auto;
    max-width: 19em;
    /*max-height: 16em;*/
    background-color: black;
