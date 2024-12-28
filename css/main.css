@@ -25,8 +25,10 @@ h2 {
 }
 
 p {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Quantico', sans-serif;
   font-weight: 400;
+    font-size: 17px;
+
   color: #dedede;
   text-align: left;
 }
@@ -52,7 +54,7 @@ a:link {
 
 ul.aboutList li {
   list-style: none;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Quantico', sans-serif;
   font-weight: 400;
   color: #dedede;
 }
