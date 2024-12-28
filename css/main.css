@@ -68,6 +68,12 @@ ul.aboutList li {
 
 .navbar .logo img {
   height: 100px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.navbar .logo img:hover {
+  transform: scale(1.005);
+  filter: brightness(1.05);
 }
 
 .navbar .nav-links {
@@ -82,7 +88,7 @@ ul.aboutList li {
 .navbar .nav-links a {
   color: white; /* Default color */
   text
-text-decoration: none;
+  text-decoration: none;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700; /* Always bold */
   transition: color 0.3s ease; /* Smooth transition for color change */
