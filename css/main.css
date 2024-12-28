@@ -26,6 +26,7 @@ h2 {
 
 p {
   font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
   color: #dedede;
   text-align: left;
 }
@@ -45,6 +46,15 @@ p {
 a:link {
   text-decoration: none;
 }
+
+ul.aboutList li {
+  list-style: none;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 
 /* Navbar Styling */
 .navbar {
@@ -125,6 +135,8 @@ text-decoration: none;
     display: flex;
   }
 }
+
+
 
 
 /*
