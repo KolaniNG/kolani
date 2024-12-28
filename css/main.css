@@ -47,6 +47,10 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 ul.aboutList li {
   list-style: none;
   font-family: 'Orbitron', sans-serif;
