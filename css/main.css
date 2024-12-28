@@ -9,13 +9,13 @@ body {
 h1 {
   font-family: 'Orbitron', sans-serif;
   font-weight: 900;
-  color: #ff2647;
+  color: #ED1487;
 }
 
 h2 {
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
-  color: #ff2647;
+  color: #ED1487;
 }
 
 .welcome {
@@ -40,33 +40,136 @@ p {
   align-content: flex-end;
 }
 
-li {
 
-}
 
 a:link {
   text-decoration: none;
 }
 
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .logo img {
+  height: 100px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  list-style: none; /* Removes the dots */
+}
+
+.navbar .nav-links a {
+  color: white; /* Default color */
+  text
+text-decoration: none;
+  font-weight: 700; /* Always bold */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #ED1487; /* Hover color */
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background: #ED1487;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #ED1487;
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateX(100%); /* Start off-screen */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0; /* Hidden initially */
+}
+
+  .nav-links a {
+    color: white; /* White text for mobile nav links */
+  }
+
+.nav-links.active {
+  display: flex; /* Display flex when active */
+  transform: translateX(0); /* Slide in */
+  opacity: 1; /* Make it visible */
+}
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+
+/*
+.nav {
+    margin-top: 2.1em;
+    margin-bottom: 2.1em;
+    height: 7em;
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav img {
+    height: 7em;
+    min-width: 4em;
+    max-height: 10em;
+}
+#mainNav ul {
+
+  float: right;
+
+}
 #mainNav li {
-	 font-size: 20px;
-	 display: inline;
-   padding-right: 10px;
+	 font-size: 1.1em;
+   display: inline;
+   padding-right: 1em;
+   transform: translateY(3em);
 }
 
 #mainNav a {
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
-  color: #ff2647;
+  color: #ED1487;
 }
 
 #mainNav a:hover {
   color: hotpink;
 }
+*/
 
 .container p {
   font-family: 'Quantico', sans-serif;
-  color: orange;
+  color: #ED1487;
   text-align: center;
 }
 
