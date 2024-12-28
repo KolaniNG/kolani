@@ -45,11 +45,10 @@ p {
 
 a:link {
   text-decoration: none;
+  color: #ED1487;
 }
 
-a:visited {
-  text-decoration: none;
-}
+
 
 ul.aboutList li {
   list-style: none;
